@@ -8,7 +8,6 @@ The **PDF Text Extractor API** allows users to upload PDF files and receive the 
 http://127.0.0.1:8000
 ```
 
----
 
 ## **Endpoints**
 
@@ -26,7 +25,7 @@ Returns a welcome message indicating that the API is running.
 }
 ```
 
----
+
 
 ### **2. Extract Text from PDF**
 **URL:** `/extract-text/`  
@@ -69,7 +68,7 @@ curl -X 'POST' \
 }
 ```
 
----
+
 
 ## **How to Run the API**
 
@@ -89,7 +88,7 @@ uvicorn main:app --reload
 - Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 - Redoc UI: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
----
+
 
 ## **Testing the API**
 
@@ -116,7 +115,7 @@ curl -X 'POST' \
 3. Add a key named `file` with type set to `File`.
 4. Upload the PDF file and click **Send**.
 
----
+
 
 ## **Error Handling**
 
@@ -125,7 +124,6 @@ curl -X 'POST' \
 | `400`          | Invalid file type. Only PDF files are supported. |
 | `500`          | An error occurred while processing the PDF file. |
 
----
 
 ## **Example Use Cases**
 - Extract text from invoices, academic papers, or legal documents.

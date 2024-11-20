@@ -1,4 +1,4 @@
-# **PDF Text Extractor API Documentation**
+# **PYTHON PDF TEXT EXTRACTOR**
 
 ## **Overview**
 The **PDF Text Extractor API** allows users to upload PDF files and receive the extracted text from those files. This API is built using FastAPI and leverages the PyMuPDF library for efficient text extraction.
